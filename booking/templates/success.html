@@ -1,0 +1,114 @@
+
+{% load static %}
+{% include 'menubar.html' %}
+{% block content %}
+
+<style>
+    .whole {
+    background-image: url("{% static 'images/view-gym-room-training-sports.jpg' %}");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* full screen height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+
+</style>
+
+
+
+<div class="whole">
+   <section id="stories" class=" py-5">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">Success Stories</h2>
+    
+    <div class="row">
+      <!-- Story 1 -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow border-0 rounded-4">
+          <div class="card-body">
+            <h5 class="card-title">Ananya R.</h5>
+            <p class="card-text">"I lost 10 kg in just 3 months with HIIT and Yoga. The trainers motivated me every step and tailored the sessions to fit my lifestyle."</p>
+            <p class="text-muted">— Member since Jan 2024</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Story 2 -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow border-0 rounded-4">
+          <div class="card-body">
+            <h5 class="card-title">Ravi Kumar</h5>
+            <p class="card-text">"Evening Yoga Flow changed my life! I sleep better, feel more flexible, and my stress levels have dropped significantly."</p>
+            <p class="text-muted">— Member since Aug 2023</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Story 3 -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow border-0 rounded-4">
+          <div class="card-body">
+            <h5 class="card-title">Neha Sharma</h5>
+            <p class="card-text">"Zumba at Elevate is a blast! It's my favorite part of the week, and I’ve made amazing friends while staying fit."</p>
+            <p class="text-muted">— Member since Mar 2024</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Story 4 -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow border-0 rounded-4">
+          <div class="card-body">
+            <h5 class="card-title">Vikram S.</h5>
+            <p class="card-text">"The Strength Training sessions helped me build muscle and confidence. I’ve never felt stronger in my life!"</p>
+            <p class="text-muted">— Member since Dec 2023</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Story 5 -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow border-0 rounded-4">
+          <div class="card-body">
+            <h5 class="card-title">Ayesha K.</h5>
+            <p class="card-text">"Pilates Basics was the perfect start to my fitness journey. The guidance and support I received were phenomenal."</p>
+            <p class="text-muted">— Member since Feb 2024</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Story 6 -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow border-0 rounded-4">
+          <div class="card-body">
+            <h5 class="card-title">Rahul Mehta</h5>
+            <p class="card-text">"I joined Cardio Kickboxing to improve my stamina — now I feel unstoppable. The energy is amazing every session!"</p>
+            <p class="text-muted">— Member since Nov 2023</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Story 7 -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow border-0 rounded-4">
+          <div class="card-body">
+            <h5 class="card-title">Sneha D.</h5>
+            <p class="card-text">"The instructors at Elevate are so inspiring! I’ve transformed not just physically but mentally. I feel empowered every day."</p>
+            <p class="text-muted">— Member since Apr 2024</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</div>
+
+
+{% endblock content %}
