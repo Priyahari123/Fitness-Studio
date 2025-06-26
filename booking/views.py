@@ -14,8 +14,7 @@ def home(request):
     classes = FitnessClass.objects.filter(datetime__gte=current_time).order_by('datetime')
     return render(request, 'home.html', {'classes': classes})
 
-def success_stories(request):
-    return render(request,'success.html')
+
 
 
 

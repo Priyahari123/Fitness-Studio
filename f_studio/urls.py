@@ -26,7 +26,7 @@ urlpatterns = [
     path('',views.home,name="home"),
     path('booknow/',views.booknow,name='booknow'),
     path('programs/',views.get_programs,name='get_programs'),
-    path('success_stories/',views.success_stories,name='success_stories'),
+  
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
